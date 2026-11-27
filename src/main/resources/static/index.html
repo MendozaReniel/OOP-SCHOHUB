@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SchoHub — Batangas scholarship finder</title>
+  <meta name="description" content="SchoHub matches students with Batangas scholarships based on their GWA, residency and household details, and lists the exact documents each application needs.">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230e6b52'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' fill='%23f6efe0' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/index.html">
+      <span class="logo-mark">S</span>
+      <span class="logo-text">SchoHub<span class="logo-sub">Batangas scholarship finder</span></span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#programs">Scholarships</a>
+      <a href="#sdgs">SDGs</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-ghost btn-sm" href="/login.html" data-guest-only>Log in</a>
+      <a class="btn btn-primary btn-sm" href="/dashboard.html" data-member-only hidden>Dashboard</a>
+      <a class="btn btn-primary btn-sm" href="/signup.html" data-guest-only>Get started</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">Scholarship information &amp; matching system</p>
+        <h1 class="display">Find the scholarship you <em>already</em> qualify for.</h1>
+        <p class="lede">SchoHub keeps every Batangas grant in one place, checks your GWA, residency and
+          household details against each program, and hands you the exact documents to prepare.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/signup.html">Create a student account</a>
+          <a class="btn btn-outline" href="#programs">Browse <span data-program-count>19</span> programs</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong data-program-count>19</strong><span>programs catalogued</span></li>
+          <li><strong>6</strong><span>core documents per application</span></li>
+          <li><strong>3</strong><span>steps to your dashboard</span></li>
+        </ul>
+      </div>
+
+      <aside class="match-preview" aria-label="Sample of matched scholarships">
+        <div class="match-preview-head">
+          <span class="badge badge-met">Matched</span>
+          <span class="muted">A preview of your dashboard</span>
+        </div>
+
+        <article class="mini-program">
+          <h3>Batangas City Government Scholarship (EBD)</h3>
+          <p class="mini-meta">Local government · Batangas City</p>
+          <ul class="mini-checks">
+            <li class="ok">GWA 88% clears the 2.50 cut-off</li>
+            <li class="ok">8 years of residency in Batangas City</li>
+            <li class="ok">Parents registered voters</li>
+          </ul>
+        </article>
+
+        <article class="mini-program">
+          <h3>Aboitiz Scholarship Program</h3>
+          <p class="mini-meta">Batangas State University</p>
+          <ul class="mini-checks">
+            <li class="ok">BS Information Technology is a priority course</li>
+            <li class="miss">Needs GWA 1.50 — yours is 1.75</li>
+          </ul>
+        </article>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2 class="display" style="font-size: clamp(1.8rem, 3.2vw, 2.6rem);">Three steps, one saved profile.</h2>
+        <p>Your details are stored once. Every scholarship you open afterwards is filtered against them.</p>
+      </div>
+
+      <div class="steps-grid">
+        <article class="step-card">
+          <span class="step-num">01</span>
+          <h3>Create your account</h3>
+          <p>Sign up with your email and a password. Your session stays active until you log out.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-num">02</span>
+          <h3>Complete your profile</h3>
+          <p>Enter your school, program, GWA, and residency. Choose a new application or a renewal.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-num">03</span>
+          <h3>See what matches</h3>
+          <p>SchoHub lists only the grants you qualify for, with the documents and portal link for each.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tight" id="programs">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Scholarship catalog</p>
+        <h2 class="display" style="font-size: clamp(1.8rem, 3.2vw, 2.6rem);">Local, provincial and campus grants.</h2>
+        <p>From the Batangas City EBD grant to university merit scholarships — all in one list.</p>
+      </div>
+
+      <div class="program-grid" id="programGrid">
+        <div class="skeleton"></div>
+        <div class="skeleton"></div>
+        <div class="skeleton"></div>
+      </div>
+
+      <p class="tiny muted" style="margin-top: 20px;">
+        Requirements change without notice. Always confirm with the scholarship office before filing.
+      </p>
+    </div>
+  </section>
+
+  <section class="section" id="sdgs">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Sustainable development goals</p>
+        <h2 class="display" style="font-size: clamp(1.8rem, 3.2vw, 2.6rem);">Built around access to education.</h2>
+      </div>
+
+      <div class="sdg-grid">
+        <article class="sdg-card">
+          <span class="sdg-tag">SDG 4 · Quality education</span>
+          <h3>Equal access to opportunities</h3>
+          <p>Helps students discover scholarships and financial assistance that support their studies.</p>
+        </article>
+        <article class="sdg-card">
+          <span class="sdg-tag">SDG 10 · Reduced inequalities</span>
+          <h3>Fewer financial barriers</h3>
+          <p>Connects students from every economic background with grants that fit their qualifications.</p>
+        </article>
+        <article class="sdg-card">
+          <span class="sdg-tag">SDG 1 · No poverty</span>
+          <h3>Less burden on families</h3>
+          <p>Makes assistance easier to find for students from financially disadvantaged households.</p>
+        </article>
+        <article class="sdg-card">
+          <span class="sdg-tag">SDG 8 · Decent work</span>
+          <h3>Skills for future work</h3>
+          <p>Keeps students in school so they can build the knowledge and skills employers need.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap cta-inner">
+      <div>
+        <h2>Your next scholarship is one profile away.</h2>
+        <p>Free for students. Takes about three minutes.</p>
+      </div>
+      <a class="btn btn-primary" href="/signup.html" data-guest-only>Create a student account</a>
+      <a class="btn btn-primary" href="/dashboard.html" data-member-only hidden>Go to my dashboard</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p style="margin: 0;">© <span data-year>2026</span> SchoHub · Scholarship information and matching system</p>
+    <div class="footer-links">
+      <a href="/login.html">Log in</a>
+      <a href="/signup.html">Sign up</a>
+      <a href="/api/scholarships" target="_blank" rel="noopener">Public catalog</a>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="/js/home.js"></script>
+</body>
+</html>

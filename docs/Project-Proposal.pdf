@@ -1,0 +1,158 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4991 >>
+stream
+BT /F2 19.00 Tf 1 0 0 1 62.00 775.89 Tm (SchoHub: A Web-Based Scholarship Matching System) Tj ET
+BT /F1 13.00 Tf 1 0 0 1 62.00 749.89 Tm (for Students Living in Batangas City) Tj ET
+BT /F1 10.00 Tf 1 0 0 1 62.00 725.89 Tm (College of Informatics and Computing Sciences) Tj ET
+BT /F1 10.00 Tf 1 0 0 1 62.00 712.89 Tm (Batangas State University - The National Engineering University, Alangilan Campus) Tj ET
+BT /F1 10.00 Tf 1 0 0 1 62.00 699.89 Tm (Golden Country Homes, Alangilan, Batangas City, Batangas, Philippines 4200) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 678.89 Tm (Project title:      SchoHub - Scholarship Matching System) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 662.89 Tm (Course / subject:   Object-Oriented Programming) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 646.89 Tm (Proponents:         ______________________________  \(Back-end Developer\)) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 630.89 Tm (                    ______________________________  \(Front-end Developer\)) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 614.89 Tm (                    ______________________________  \(Documentation\)) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 598.89 Tm (Instructor:         ______________________________) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 582.89 Tm (Date submitted:     ______________________________) Tj ET
+BT /F2 12.00 Tf 1 0 0 1 62.00 550.89 Tm (1. Introduction and Background) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 531.89 Tm (Many students in Batangas City stop looking for financial assistance because the information is) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 516.89 Tm (scattered. Scholarship announcements are posted on different websites, Facebook pages and bulletin) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 501.89 Tm (boards, and each program has its own requirements, grade requirement and application period. A) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 486.89 Tm (student who wants to apply must read every announcement one by one to find out whether he or she is) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 471.89 Tm (even qualified, and often discovers too late that one requirement was missing.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 451.89 Tm (SchoHub answers this problem with one website that keeps a catalog of scholarship programs and) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 436.89 Tm (matches a student only to the programs that student can realistically apply for. The system is) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 421.89 Tm (developed in Java using the Spring Boot framework and is built on the principles of object-oriented) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 406.89 Tm (programming: encapsulation of student and program data in model classes, inheritance and) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 391.89 Tm (polymorphism in the eligibility rules, and a layered architecture that separates the user interface, the) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 376.89 Tm (business logic and the database.) Tj ET
+BT /F2 12.00 Tf 1 0 0 1 62.00 348.89 Tm (2. Objectives) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 329.89 Tm (The project aims to:) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 309.89 Tm (∑) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 309.89 Tm (provide one organized catalog of the scholarship programs available to students of Batangas) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 294.89 Tm (City;) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 277.89 Tm (∑) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 277.89 Tm (match each student to the programs he or she is qualified for using multiple criteria, not a single) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 262.89 Tm (grade;) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 245.89 Tm (∑) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 245.89 Tm (show, for every program, exactly which requirements are already met and which are still missing;) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 228.89 Tm (∑) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 228.89 Tm (guide the student through the documents that must be prepared before applying;) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 211.89 Tm (∑) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 211.89 Tm (support both new applicants \(Path A\) and continuing scholars who need to renew \(Path B\); and) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 194.89 Tm (∑) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 194.89 Tm (apply the rules of object-oriented programming in the design of the system.) Tj ET
+BT /F2 12.00 Tf 1 0 0 1 62.00 169.89 Tm (3. Scope and Delimitation) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 150.89 Tm (The system is intended for students who have lived in Batangas City. During sign-up and profile) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 135.89 Tm (completion the city field accepts only "Batangas City"; any other city or municipality is rejected. The) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 120.89 Tm (barangay field is a dropdown containing the 105 barangays of Batangas City so that the address) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 105.89 Tm (cannot be typed incorrectly.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 85.89 Tm (SchoHub covers: account creation and login with a session token; the base student identity \(name,) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5300 >>
+stream
+BT /F1 10.50 Tf 1 0 0 1 62.00 775.89 Tm (address, school, course, year level, grades, family income, sex, special track\); the choice between) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 760.89 Tm (Path A \(new application\) and Path B \(renewal\); multi-criteria matching; the requirement and document) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 745.89 Tm (checklist; and the link to the website of the scholarship provider where the real application is) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 730.89 Tm (submitted.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 710.89 Tm (The system does not process the application itself. Documents are not uploaded and no payment is) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 695.89 Tm (involved. The catalog of programs is loaded from the system's own data source and is not edited by an) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 680.89 Tm (administrator through the website. The website has no update system for the upcoming scholars: there) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 665.89 Tm (is no announcement, notification or automatic update that informs students about new programs, newly) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 650.89 Tm (opened application periods or deadlines. Students must open the website and check the list) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 635.89 Tm (themselves.) Tj ET
+BT /F2 12.00 Tf 1 0 0 1 62.00 607.89 Tm (4. Significance of the Project) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 588.89 Tm (Students save time and avoid wasted effort because they only see programs they are qualified for and) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 573.89 Tm (they know in advance which documents are missing. Parents and guidance offices can use the) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 558.89 Tm (checklist to prepare requirements early. Scholarship providers reach the right applicants. For the) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 543.89 Tm (developers, the project is a practical application of Java, object-oriented design, relational databases) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 528.89 Tm (and web development.) Tj ET
+BT /F2 12.00 Tf 1 0 0 1 62.00 500.89 Tm (5. Methodology and System Flow) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 481.89 Tm (The system follows the flow below, from the moment the student opens the website to the moment the) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 466.89 Tm (application is submitted to the provider:) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 446.89 Tm (1.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 446.89 Tm (Start.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 429.89 Tm (2.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 429.89 Tm (The student opens the website and either signs up or logs in. The system validates the input and) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 414.89 Tm (creates a session token that is kept for 30 days.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 397.89 Tm (3.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 397.89 Tm (The student completes the base identity: name, address \(city must be Batangas City, barangay) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 382.89 Tm (chosen from the dropdown\), school, course, year level, GWA, income and special track.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 365.89 Tm (4.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 365.89 Tm (The student chooses Path A \(new application\) or Path B \(renewal\).) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 348.89 Tm (5.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 348.89 Tm (The system runs the matching rules. Every rule checks one criterion, such as the GWA, the year) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 333.89 Tm (level, the course, the income bracket, the city of residence or the special track, and reports) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 318.89 Tm (whether the student passes it.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 301.89 Tm (6.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 301.89 Tm (The dashboard lists the matched programs together with the reason for each match and the) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 286.89 Tm (requirements that are still missing.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 269.89 Tm (7.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 269.89 Tm (The student opens a program, reviews its requirements and documents, and ticks the documents) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 254.89 Tm (already on hand.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 237.89 Tm (8.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 237.89 Tm (The student follows the provider link to submit the application on the provider's own website.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 68.00 220.89 Tm (9.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 88.00 220.89 Tm (End.) Tj ET
+BT /F2 12.00 Tf 1 0 0 1 62.00 195.89 Tm (6. Development Tools and Technology) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 176.89 Tm (Java 17 and the Spring Boot framework provide the back end: Spring Web for the REST API, Spring) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 161.89 Tm (Data JPA for the database, BCrypt for password hashing and a bearer-token filter for the session. The) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 146.89 Tm (user interface is built with HTML, CSS and plain JavaScript. The database is the embedded H2) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 131.89 Tm (database, stored in a single file inside the data folder, so the project runs on a laptop without) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 116.89 Tm (installing a database server. Maven builds and packages the application into one executable JAR.) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 933 >>
+stream
+BT /F2 12.00 Tf 1 0 0 1 62.00 767.89 Tm (7. Object-Oriented Design) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 748.89 Tm (The program is divided into layers. Model classes \(Student, Scholarship, SessionToken\) hold the) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 733.89 Tm (data and are mapped to database tables. Repository interfaces read and write those models. Service) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 718.89 Tm (classes \(AuthService, ProfileService, MatchingService, RenewalService\) hold the business logic.) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 703.89 Tm (Controllers expose the REST endpoints. The matching module uses an interface, EligibilityRule,) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 688.89 Tm (implemented by one class per criterion, so a new rule can be added without changing the matching) Tj ET
+BT /F1 10.50 Tf 1 0 0 1 62.00 673.89 Tm (service. The diagram in UML-Diagram.png shows these classes and their relationships.) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000230 00000 n 
+0000000332 00000 n 
+0000000474 00000 n 
+0000005517 00000 n 
+0000005659 00000 n 
+0000011011 00000 n 
+0000011154 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+12139
+%%EOF

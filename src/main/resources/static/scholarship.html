@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scholarship — SchoHub</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230e6b52'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' fill='%23f6efe0' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/index.html">
+      <span class="logo-mark">S</span>
+      <span class="logo-text">SchoHub<span class="logo-sub">Batangas scholarship finder</span></span>
+    </a>
+    <div class="header-actions" style="margin-left:auto;">
+      <a class="btn btn-ghost btn-sm" href="/dashboard.html" data-member-only hidden>Dashboard</a>
+      <a class="btn btn-ghost btn-sm" href="/login.html" data-guest-only>Log in</a>
+      <a class="btn btn-primary btn-sm" href="/signup.html" data-guest-only>Get started</a>
+    </div>
+  </div>
+</header>
+
+<main id="page">
+  <section class="detail-hero">
+    <div class="wrap">
+      <a class="breadcrumb" href="/index.html">← All scholarships</a>
+      <div id="detailHead">
+        <div class="skeleton" style="height: 120px; max-width: 720px;"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="wrap detail-grid" id="detailBody" hidden>
+      <div class="card card-pad" id="detailMain"></div>
+      <aside class="card side-panel" id="detailSide"></aside>
+    </div>
+    <div class="wrap" id="detailError" hidden>
+      <div class="empty">
+        <h3>Program not found</h3>
+        <p id="detailErrorMessage">The scholarship you are looking for is not in the catalog.</p>
+        <a class="btn btn-primary" href="/index.html">Browse all programs</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script type="module" src="/js/scholarship.js"></script>
+</body>
+</html>

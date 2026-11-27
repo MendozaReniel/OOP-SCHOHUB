@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Log in — SchoHub</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230e6b52'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' fill='%23f6efe0' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/index.html">
+      <span class="logo-mark">S</span>
+      <span class="logo-text">SchoHub<span class="logo-sub">Batangas scholarship finder</span></span>
+    </a>
+    <div class="header-actions">
+      <a class="btn btn-outline btn-sm" href="/signup.html">Create an account</a>
+    </div>
+  </div>
+</header>
+
+<main class="auth">
+  <section class="auth-art">
+    <p class="eyebrow">Welcome back</p>
+    <h2>Your matches are saved and waiting.</h2>
+    <p>Log in to pick up where you left off. Your GWA, residency and application details are stored
+      with your account, so the dashboard can filter scholarships instantly.</p>
+    <ul class="auth-points">
+      <li>Only the grants you qualify for are listed</li>
+      <li>Document checklists for every program</li>
+      <li>Renewal requirements tracked separately</li>
+    </ul>
+  </section>
+
+  <section class="auth-form-wrap">
+    <form class="auth-card" id="loginForm" novalidate>
+      <h1>Log in</h1>
+      <p class="muted">Use the email and password you signed up with.</p>
+
+      <div class="alert alert-error" id="formError" hidden role="alert"></div>
+
+      <div class="field">
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <div class="password-field">
+          <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Your password" required>
+          <button class="password-toggle" id="passwordToggle" type="button" aria-controls="password" aria-pressed="false">Show</button>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-block" id="submitBtn" type="submit">Log in</button>
+
+      <p class="auth-switch">New to SchoHub? <a href="/signup.html">Create an account</a></p>
+    </form>
+  </section>
+</main>
+
+<script type="module" src="/js/login.js"></script>
+</body>
+</html>

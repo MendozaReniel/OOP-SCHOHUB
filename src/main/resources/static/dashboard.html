@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard — SchoHub</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230e6b52'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='38' fill='%23f6efe0' text-anchor='middle'%3ES%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+<header class="site-header app-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="/index.html">
+      <span class="logo-mark">S</span>
+      <span class="logo-text">SchoHub<span class="logo-sub">Batangas scholarship finder</span></span>
+    </a>
+    <div class="header-actions" style="margin-left:auto;">
+      <a class="btn btn-ghost btn-sm" href="/index.html">Home</a>
+      <span class="user-chip">
+        <span class="avatar" data-user-initials>ST</span>
+        <span class="user-name" data-user-name>Student</span>
+      </span>
+      <button class="btn btn-outline btn-sm" type="button" data-logout>Log out</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap app-main">
+  <div class="page-head">
+    <div>
+      <h1>Your dashboard</h1>
+      <p id="dashMessage">Loading your profile…</p>
+    </div>
+    <a class="btn btn-outline btn-sm" href="/profile.html">Edit profile</a>
+  </div>
+
+  <div class="dash-grid">
+    <aside class="card profile-card">
+      <h2 data-name>Student</h2>
+      <p class="school" data-school>&nbsp;</p>
+
+      <div class="gwa-chip">
+        <strong data-gwa>—</strong>
+        <span data-gwa-note>previous semester GWA</span>
+      </div>
+
+      <ul class="profile-facts">
+        <li><span>Program</span><strong data-program>—</strong></li>
+        <li><span>Level</span><strong data-level>—</strong></li>
+        <li><span>School year</span><strong data-year>—</strong></li>
+        <li><span>Residence</span><strong data-residence>—</strong></li>
+        <li><span>Track</span><strong data-path>—</strong></li>
+      </ul>
+
+      <a class="btn btn-outline btn-sm btn-block" href="/profile.html">Update details</a>
+      <a class="btn btn-ghost btn-sm btn-block" id="switchPath" href="/profile.html" style="margin-top: 8px;">Switch track</a>
+    </aside>
+
+    <section>
+      <div class="alert alert-info" id="profileAlert" hidden></div>
+
+      <div id="matchesPanel" hidden>
+        <div class="section-bar">
+          <div>
+            <h2>Matched scholarships</h2>
+            <span class="count" id="matchCount"></span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="showAll">
+            Show programs I don't qualify for
+          </label>
+        </div>
+        <div class="program-grid" id="matchGrid"></div>
+      </div>
+
+      <div id="renewalPanel" hidden></div>
+
+      <div id="noPathPanel" class="card card-pad" hidden>
+        <div class="empty">
+          <h3>Choose how you will use SchoHub</h3>
+          <p>Are you filing a new scholarship application, or renewing one you already hold?
+            Pick a track and we will show the right checklist.</p>
+          <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+            <a class="btn btn-primary" href="/profile.html?branch=new">New application</a>
+            <a class="btn btn-outline" href="/profile.html?branch=renew">Scholarship renewal</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script type="module" src="/js/dashboard.js"></script>
+</body>
+</html>
